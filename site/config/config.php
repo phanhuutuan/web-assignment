@@ -2,5 +2,5 @@
  
 return array(
     'csrf_token_name'   => 'tokenname',
-    'base_url'          => 'http://localhost/www/web-assignment/admin.php'
+    'base_url'          => 'http://localhost/www/web-assignment/index.php'
 );

@@ -1,0 +1,329 @@
+/*-- header --*/
+
+html,
+body {
+    margin: 0;
+    font-size: 100%;
+    font-family: 'Lato', sans-serif;
+    background: #fff;
+}
+body a {
+    text-decoration: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+a:hover {
+    text-decoration: none;
+}
+.header {
+    background: #1d71ab;
+    height: 30px;
+}
+.header-right {
+    text-align: left;
+}
+.header-left {
+    text-align: left;
+}
+/*-- //header --*/
+/*-- header-bot --*/
+
+.header-bot {
+    padding: 25px 0;
+}
+.header-left img {
+    width: 100%;
+}
+.header-middle {
+    margin-top: 40px;
+}
+.header-middle input[type="search"] {
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 14px 10px;
+    color: #848484;
+    font-size: 16px;
+    border-right: 1px solid #eee;
+}
+.header-middle form input[type="submit"] {
+    background: url(../../../../upload/images/search.png) no-repeat 4px 0px #33B8FF;
+    width: 100%;
+    height: 50px;
+    border: none;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+.search {
+    float: left;
+    width: 90%;
+}
+.sear-sub {
+    float: right;
+    width: 10%;
+}
+.header-middle {
+    border: 1px solid #eee;
+    padding: 0;
+}
+.header-right ul li {
+    display: inline-block;
+    padding-top: 34px;
+}
+.header-right ul li:nth-child(1) {
+    padding-left: 0;
+}
+.header-right ul li:nth-child(2) {
+    padding-left: 5px;
+}
+.header-right ul {
+    margin-top: 20px;
+}
+.header-right ul li a span {
+    font-size: 18px;
+}
+.header-right ul li b {
+    padding-left: 12px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*-- //header-bot --*/
+/*-- banner-top --*/
+
+.ban-top {
+    background: #000;
+    padding: 0px 0;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+.dropdown-menu.columns-2 {
+    min-width: 500px;
+    padding: 30px 30px;
+}
+.multi-gd-img img {
+    width: 100%;
+}
+.multi-column-dropdown {
+    list-style-type: none;
+}
+.dropdown-submenu {
+    position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+.dropdown-submenu.pull-left {
+    float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+/*-- nav-bar --*/
+
+.navbar-default {
+    background: none;
+    border: none;
+    min-height: inherit;
+    margin: 0;
+    float: left;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    background: none;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background: none;
+}
+.navbar-nav > li {
+    margin: 0 15px 0 0;
+}
+.navbar-nav > li > a {
+    padding: 26px 16px;
+}
+.navbar-collapse {
+    padding-right: 0;
+    padding-left: 0;
+}
+.navbar-nav > li > a {
+    line-height: inherit;
+}
+/*-- //left nav --*/
+
+.top_nav_right {
+    float: right;
+    width: 21%;
+}
+.box_1 {
+    background: #33B8FF;
+    padding: 15px 22px;
+    text-align: center;
+}
+.box_1 h3 {
+    color: #fff;
+    font-size: 1em;
+    margin: 0;
+    text-decoration: none;
+    margin: 0 0 7px 0;
+}
+.total i {
+    top: 2px;
+    left: -5px;
+}
+.box_1 p {
+    margin: 0;
+    color: #999;
+    font-size: 14px;
+}
+a.simpleCart_empty {
+    color: #fff;
+    font-size: 13px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+/*-- //banner-top --*/
+
+
+.product-info {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+
+.footer-space {
+    background: #fff;
+    height: 50px;
+}
+
+.footer {
+    background: #353535;
+    color: #fff;
+}
+.footer .footer-container1 {
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+}
+.footer .footer-container1 .main-footer {
+    text-align: center;
+}
+.footer .footer-container1 .main-footer .footer-title {
+    font-size: 35px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Trocchi', serif;
+    font-weight: 600;
+}
+.footer .footer-container1 .social {
+    text-align: center;
+    margin-top: 30px;
+}
+.footer .footer-container1 .social a {
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    line-height: 35px;
+    color: #fff;
+    margin-right: 10px;
+}
+.footer .footer-container1 .social .face {
+    background: #3B5998;
+}
+.footer .footer-container1 .social .twitter {
+    background: #4099FF;
+}
+.footer .footer-container1 .social .insta {
+    background: #CD2830;
+}
+.footer .footer-container1 .social a:hover i {
+    transition: 0.9s;
+    transform: rotateZ(360deg);
+}
+.footer .footer-container2 {
+    padding-top: 30px;
+    padding-right: 0px;
+    padding-bottom: 25px;
+    padding-left: 0px;
+}
+.footer .footer-container2 .contact-footer {} .footer .footer-container2 .contact-p {
+    display: inline-block;
+    font-size: 13px;
+}
+.footer .footer-container2 .contact-footer p {
+    display: inline-block;
+    font-size: 12px;
+}
+.footer .footer-container2 .contact-footer .home {
+    text-align: left;
+}
+.footer .footer-container2 .contact-footer .phone {
+    text-align: left;
+}
+.footer .footer-container2 .contact-footer .email {
+    text-align: left;
+}
+.footer .footer-container2 .copyr {
+    display: inline-block;
+    font-size: 12px;
+}

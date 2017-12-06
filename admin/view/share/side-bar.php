@@ -14,7 +14,7 @@
             <li class=''>
               <a href='admin.php?c=member'>
                 <i class='icon-user'></i>
-                <span>Users</span>
+                <span>User Management</span>
               </a>
             </li>
           </ul>
@@ -22,15 +22,15 @@
             <li class=''>
               <a href='admin.php?c=product'>
                 <i class='icon-gift'></i>
-                <span>Products</span>
+                <span>Product Management</span>
               </a>
             </li>
           </ul>
             <ul class='nav nav-stacked'>
             <li class=''>
-              <a href='admin.php?c=news'>
+              <a href='admin.php?c=order'>
                 <i class='icon-info'></i>
-                <span>News</span>
+                <span>Order Management</span>
               </a>
             </li>
           </ul>

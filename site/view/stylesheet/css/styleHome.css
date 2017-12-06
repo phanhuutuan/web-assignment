@@ -1,0 +1,40 @@
+body{
+	font-family: Arial, Tahoma;
+	font-size: 12px;
+	width: 100%;
+	padding: 0;
+	margin: 0 auto;
+}
+#top-head{
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #CDCDCD;
+	background-image: url("img/background_topheader.jpg");
+	display: block;
+}
+#bottom_head{
+	min-height: 100px;
+	border-bottom: 1px solid #CDCDCD;
+	background-image: url("img/background_header.jpg");
+	display: block;
+}
+#top_of_bottom_head{
+	min-height: 100px;
+}
+#menu{
+	height: 50px;
+	line-height: 50px;
+	margin-bottom: 5px;
+	clear: both;
+	background-color: #F5F5F5;
+}
+#slide_bar{
+     min-height: 200px;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: 100%;
+      max-height: 350px !important;
+      margin: auto;
+  }
+

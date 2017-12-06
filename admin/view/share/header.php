@@ -1,7 +1,7 @@
 <header>
   <nav class='navbar navbar-default' >
-    <a class='navbar-brand' href='site.php?c=home' style="font-family: cursive;">
-      <img src="upload/images/logoWF.png" id="logo" alt="" style="width: 124px;">
+    <a class='navbar-brand' href='index.php?c=home' style="font-family: cursive;">
+      <img src="upload/images/bkshop_logo.png" id="logo" alt="" style="width: 124px;">
     </a>
     <a class='toggle-nav btn pull-left' href='#'>
       <i class='icon-reorder'></i>
@@ -15,20 +15,16 @@
         </a>
         <ul class='dropdown-menu'>
           <li>
-            <a href='site.php?c=session&a=edit'>
+            <a href='index.php?c=session&a=edit'>
               <i class='icon-user'></i>
               Profile
             </a>
           </li>
           <li>
-            <!-- <a href='#'>
-              <i class='icon-cog'></i>
-              Settings
-            </a> -->
           </li>
           <li class='divider'></li>
           <li>
-            <a href='site.php?c=session&a=logout'>
+            <a href='index.php?c=session&a=logout'>
               <i class='icon-signout'></i>
               Sign out
             </a>
